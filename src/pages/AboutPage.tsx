@@ -1,8 +1,8 @@
 export const AboutPage = () => {
     return (
 
-        <>
-            <p className="text-4xl font-bold text-center">Sobre o Projeto</p>
-        </>
+        <main className="sm:ml-14 p-4">
+            <p>Sobre o Projeto</p>
+        </main>
     );
 }

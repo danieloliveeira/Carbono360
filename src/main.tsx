@@ -7,7 +7,7 @@ import { HomePage } from './pages/HomePage.tsx'
 import { DashboardPage } from './pages/DashboardPage.tsx'
 import { AboutPage } from './pages/AboutPage.tsx'
 import { MemberPage } from './pages/MemberPage.tsx'
-import Layout from './components/layout/layout.tsx'
+import { AppLayout } from './components/layout/AppLayout.tsx'
 
 const router = createBrowserRouter([
   {
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <LoginPage />,
   },
   {
-    element: <Layout />,
+    element: <AppLayout/>,
     children: [
       {
         path: '/homepage',
